@@ -30,7 +30,7 @@
   
   /* Limiting the width of the page */
   body {
-    max-width: 960px; /* Adjust the value as per your desired width */
+    max-width: 960px;
     margin: 0 auto;
   }
   
