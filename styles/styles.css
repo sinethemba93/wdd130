@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 nav {
     background-color: steelblue;
@@ -22,12 +22,12 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 0cap1 px solid steelblue;
+    border: 1px solid steelblue; /* Fixed typo: removed "0cap1" */
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
 
-p { 
+p {
     padding: 10px;
 }
 
@@ -49,13 +49,21 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 150px;
+}
+
 main img {
     width: 150px;
     height: auto;
     float: right;
 }
 
-p { padding: 0;}
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 1em;
@@ -69,4 +77,4 @@ footer {
     padding: 10px;
     background-color: #F3E8EE;
     color: white;
-  }
+}
