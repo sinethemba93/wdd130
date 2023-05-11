@@ -88,14 +88,14 @@ aside {
 }
 
 aside img {
-  width: 300px;
+  width: 600px;
   height: auto;
 }
 
 aside h2 {
     position: relative;
-    top: 50;
-    left: 120px;
+    top: 47px;
+    left: 150px;
 }
 
 footer {
@@ -113,7 +113,7 @@ footer {
 }
 
 /* Class Selectors */
-box {
+.box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 2rem;
