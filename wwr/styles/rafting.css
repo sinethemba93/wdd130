@@ -9,6 +9,48 @@
     --link-color: #007bff;
   }
 
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .history-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .history-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .adventures-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+  
+
   .hero img {
     width: 100%;
     height: 300px;
@@ -38,5 +80,32 @@
   body {
     max-width: 960px;
     margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .sociallinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+  }
+  
+  .sociallinks img {
+    width: 30px;
+    height: 30px;
   }
   
