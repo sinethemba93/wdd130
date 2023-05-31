@@ -6,8 +6,8 @@
   --accent1-color: #00A7E1;
   --accent2-color: #6E7271;
 
-  --heading-font: '______', serif;
-  --paragraph-font: '______', serif;
+  --heading-font: 'steelblue', serif;
+  --paragraph-font: 'steelblue', serif;
 
   --nav-background-color: green;
   --nav-link-color: black;
@@ -55,4 +55,17 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+:root {
+  --primary-color: steelblue;
+  --secondary-color: grey;
+  /* Define other CSS variables here */
+}
+
+/* Use the CSS variables in your styles */
+.example-element {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  /* Apply other styles using CSS variables */
 }
